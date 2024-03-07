@@ -52,6 +52,10 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -85,4 +89,34 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 66px;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+
+  .container {
+    display: inline;
+  }
+  .container img {
+    display: none;
+  }
 }
